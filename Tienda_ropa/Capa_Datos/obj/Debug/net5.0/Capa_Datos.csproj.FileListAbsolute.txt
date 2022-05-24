@@ -1,0 +1,12 @@
+C:\Users\MI PC\source\repos\Tienda_ropa\Capa_Datos\bin\Debug\net5.0\Capa_Datos.deps.json
+C:\Users\MI PC\source\repos\Tienda_ropa\Capa_Datos\bin\Debug\net5.0\Capa_Datos.dll
+C:\Users\MI PC\source\repos\Tienda_ropa\Capa_Datos\bin\Debug\net5.0\Capa_Datos.pdb
+C:\Users\MI PC\source\repos\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\Capa_Datos.csproj.AssemblyReference.cache
+C:\Users\MI PC\source\repos\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\Capa_Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MI PC\source\repos\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\Capa_Datos.AssemblyInfoInputs.cache
+C:\Users\MI PC\source\repos\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\Capa_Datos.AssemblyInfo.cs
+C:\Users\MI PC\source\repos\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\MI PC\source\repos\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\Capa_Datos.dll
+C:\Users\MI PC\source\repos\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\refint\Capa_Datos.dll
+C:\Users\MI PC\source\repos\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\Capa_Datos.pdb
+C:\Users\MI PC\source\repos\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\ref\Capa_Datos.dll
