@@ -9,7 +9,7 @@ namespace Capa_Negocio
 {
     internal class Material
     {
-        public string TableName = "Materiales";
+        public string TableName = "TMateriales";
         int id_material { get; set; }
         string material { get; set; }
         string descipcion { get; set; }

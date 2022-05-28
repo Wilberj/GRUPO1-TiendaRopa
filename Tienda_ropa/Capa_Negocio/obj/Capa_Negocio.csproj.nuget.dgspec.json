@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tienda_ropa\\Capa_Negocio\\Capa_Negocio.csproj": {}
+    "C:\\Users\\kenne\\OneDrive\\Escritorio\\Tienda_ropa\\Capa_Negocio\\Capa_Negocio.csproj": {}
   },
   "projects": {
-    "D:\\Tienda_ropa\\Capa_Datos\\Capa_Datos.csproj": {
+    "C:\\Users\\kenne\\OneDrive\\Escritorio\\Tienda_ropa\\Capa_Datos\\Capa_Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tienda_ropa\\Capa_Datos\\Capa_Datos.csproj",
+        "projectUniqueName": "C:\\Users\\kenne\\OneDrive\\Escritorio\\Tienda_ropa\\Capa_Datos\\Capa_Datos.csproj",
         "projectName": "Capa_Datos",
-        "projectPath": "D:\\Tienda_ropa\\Capa_Datos\\Capa_Datos.csproj",
-        "packagesPath": "C:\\Users\\LAB02-PC6\\.nuget\\packages\\",
-        "outputPath": "D:\\Tienda_ropa\\Capa_Datos\\obj\\",
+        "projectPath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\Tienda_ropa\\Capa_Datos\\Capa_Datos.csproj",
+        "packagesPath": "C:\\Users\\kenne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\Tienda_ropa\\Capa_Datos\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\LAB02-PC6\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\kenne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -64,26 +60,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Tienda_ropa\\Capa_Negocio\\Capa_Negocio.csproj": {
+    "C:\\Users\\kenne\\OneDrive\\Escritorio\\Tienda_ropa\\Capa_Negocio\\Capa_Negocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tienda_ropa\\Capa_Negocio\\Capa_Negocio.csproj",
+        "projectUniqueName": "C:\\Users\\kenne\\OneDrive\\Escritorio\\Tienda_ropa\\Capa_Negocio\\Capa_Negocio.csproj",
         "projectName": "Capa_Negocio",
-        "projectPath": "D:\\Tienda_ropa\\Capa_Negocio\\Capa_Negocio.csproj",
-        "packagesPath": "C:\\Users\\LAB02-PC6\\.nuget\\packages\\",
-        "outputPath": "D:\\Tienda_ropa\\Capa_Negocio\\obj\\",
+        "projectPath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\Tienda_ropa\\Capa_Negocio\\Capa_Negocio.csproj",
+        "packagesPath": "C:\\Users\\kenne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\Tienda_ropa\\Capa_Negocio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\LAB02-PC6\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\kenne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -96,8 +88,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Tienda_ropa\\Capa_Datos\\Capa_Datos.csproj": {
-                "projectPath": "D:\\Tienda_ropa\\Capa_Datos\\Capa_Datos.csproj"
+              "C:\\Users\\kenne\\OneDrive\\Escritorio\\Tienda_ropa\\Capa_Datos\\Capa_Datos.csproj": {
+                "projectPath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\Tienda_ropa\\Capa_Datos\\Capa_Datos.csproj"
               }
             }
           }
@@ -126,7 +118,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

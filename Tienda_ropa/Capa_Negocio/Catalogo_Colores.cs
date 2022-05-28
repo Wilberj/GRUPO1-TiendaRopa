@@ -8,9 +8,9 @@ using CAPA_DATOS;
 
 namespace Capa_Negocio
 {
-    internal class Colores
+    internal class Catalogo_Colores
     {
-       public string TableName = "color";
+       public string TableName = "Tcolor";
        int id_color { get; set; }
        string color { get; set; }
        string descripcion { get; set; }
@@ -19,7 +19,7 @@ namespace Capa_Negocio
 
 
 
-        public object save(Colores inst)
+        public object save(Catalogo_Colores inst)
         {
             try
             {
