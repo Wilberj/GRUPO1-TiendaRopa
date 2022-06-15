@@ -72,6 +72,22 @@ namespace Capa_Negocio
         }
 
 
+        public object TakeList(Tallas inst)
+        {
+            try
+            {
+                SqlADOConexion.IniciarConexion("sa", "1234");
+                return SqlADOConexion.SQLM.TakeList(TableName, inst.id_talla, null);
+
+
+            }
+            catch (Exception e)
+            {
+                throw;
+            }
+        }
+
+
         public void actualizar_mercancia_dañada(int id_tallas)
         {
 

@@ -71,6 +71,23 @@ namespace Capa_Negocio
             }
         }
 
+
+        public object TakeList(Diseños inst)
+        {
+            try
+            {
+                SqlADOConexion.IniciarConexion("sa", "1234");
+                return SqlADOConexion.SQLM.TakeList(TableName, inst.id_diseño, null);
+
+
+            }
+            catch (Exception e)
+            {
+                throw;
+            }
+        }
+
+
         public void buscar_diseños(int id_diseño)
         {
 

@@ -39,6 +39,24 @@ namespace Capa_Negocio
             }
         }
 
+
+        public object TakeList(Estilos inst)
+        {
+            try
+            {
+                SqlADOConexion.IniciarConexion("sa", "1234");
+                return SqlADOConexion.SQLM.TakeList(TableName, inst.id_estilos, null);
+
+
+            }
+            catch (Exception e)
+            {
+                throw;
+            }
+        }
+
+
+
         public object delete( Estilos inst)
         {
             try

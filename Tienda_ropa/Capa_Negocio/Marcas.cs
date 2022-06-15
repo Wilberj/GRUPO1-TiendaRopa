@@ -72,6 +72,22 @@ namespace Capa_Negocio
         }
 
 
+        public object TakeList(Marcas inst)
+        {
+            try
+            {
+                SqlADOConexion.IniciarConexion("sa", "1234");
+                return SqlADOConexion.SQLM.TakeList(TableName, inst.id_marca, null);
+
+
+            }
+            catch (Exception e)
+            {
+                throw;
+            }
+        }
+
+
         public void actualizar_marca(int id_marcas)
         {
 

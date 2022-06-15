@@ -74,6 +74,23 @@ namespace Capa_Negocio
             }
         }
 
+
+        public object TakeList(Categorias inst)
+        {
+            try
+            {
+                SqlADOConexion.IniciarConexion("sa", "1234");
+                return SqlADOConexion.SQLM.TakeList(TableName, inst.id_categoria, null);
+
+
+            }
+            catch (Exception e)
+            {
+                throw;
+            }
+        }
+
+
         public void actualizar_categoria(int id_categoria) 
         {
         

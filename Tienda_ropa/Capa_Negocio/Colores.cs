@@ -73,6 +73,22 @@ namespace Capa_Negocio
             }
         }
 
+        public object TakeList(Colores inst)
+        {
+            try
+            {
+                SqlADOConexion.IniciarConexion("sa", "1234");
+                return SqlADOConexion.SQLM.TakeList(TableName, inst.id_color, null);
+
+
+            }
+            catch (Exception e)
+            {
+                throw;
+            }
+        }
+
+
         public void bucar_color(int id_color)
         {
 

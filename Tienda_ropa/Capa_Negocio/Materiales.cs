@@ -69,6 +69,23 @@ namespace Capa_Negocio
             }
         }
 
+
+        public object TakeList(Material inst)
+        {
+            try
+            {
+                SqlADOConexion.IniciarConexion("sa", "1234");
+                return SqlADOConexion.SQLM.TakeList(TableName, inst.id_material, null);
+
+
+            }
+            catch (Exception e)
+            {
+                throw;
+            }
+        }
+
+
         public void actualizar_material(int id_material)
         {
 
