@@ -28,3 +28,18 @@ E:\Tienda_ropa\Capa_Negocio\obj\Debug\net5.0\Capa_Negocio.dll
 E:\Tienda_ropa\Capa_Negocio\obj\Debug\net5.0\refint\Capa_Negocio.dll
 E:\Tienda_ropa\Capa_Negocio\obj\Debug\net5.0\Capa_Negocio.pdb
 E:\Tienda_ropa\Capa_Negocio\obj\Debug\net5.0\ref\Capa_Negocio.dll
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Negocio\bin\Debug\net5.0\Capa_Negocio.deps.json
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Negocio\bin\Debug\net5.0\Capa_Negocio.dll
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Negocio\bin\Debug\net5.0\Capa_Negocio.pdb
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Negocio\bin\Debug\net5.0\Capa_Datos.dll
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Negocio\bin\Debug\net5.0\Capa_Datos.pdb
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Negocio\obj\Debug\net5.0\Capa_Negocio.csproj.AssemblyReference.cache
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Negocio\obj\Debug\net5.0\Capa_Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Negocio\obj\Debug\net5.0\Capa_Negocio.AssemblyInfoInputs.cache
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Negocio\obj\Debug\net5.0\Capa_Negocio.AssemblyInfo.cs
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Negocio\obj\Debug\net5.0\Capa_Negocio.csproj.CoreCompileInputs.cache
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Negocio\obj\Debug\net5.0\Capa_Negocio.csproj.CopyComplete
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Negocio\obj\Debug\net5.0\Capa_Negocio.dll
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Negocio\obj\Debug\net5.0\refint\Capa_Negocio.dll
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Negocio\obj\Debug\net5.0\Capa_Negocio.pdb
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Negocio\obj\Debug\net5.0\ref\Capa_Negocio.dll

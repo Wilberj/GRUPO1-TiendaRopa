@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nUaRqc5TCHBQw+jVWJP6cCCUSscaIOHG+jfkhKndbl2+vB6QPkVXARfmZ9XJEDPU8CWbSSF3o3596+K7gpkGcQ==",
+  "dgSpecHash": "G1o2Aso/YHkikS8WoyCwctGWYhsPg1viO+gHAIBMjAbwG5ytWj0/edbX6QSmUBm29POIfkbU6JLV1IXkVfQWRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\GRUPO1-TiendaRopa\\Tienda_ropa\\Capa_presentacion\\Capa_presentacion.csproj",
+  "projectFilePath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\Capa_presentacion\\Capa_presentacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kenne\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.17\\microsoft.aspnetcore.mvc.razor.extensions.5.0.17.nupkg.sha512",
     "C:\\Users\\kenne\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\5.0.17\\microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.17.nupkg.sha512",

@@ -22,3 +22,15 @@ E:\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\Capa_Datos.dll
 E:\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\refint\Capa_Datos.dll
 E:\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\Capa_Datos.pdb
 E:\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\ref\Capa_Datos.dll
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Datos\bin\Debug\net5.0\Capa_Datos.deps.json
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Datos\bin\Debug\net5.0\Capa_Datos.dll
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Datos\bin\Debug\net5.0\Capa_Datos.pdb
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\Capa_Datos.csproj.AssemblyReference.cache
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\Capa_Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\Capa_Datos.AssemblyInfoInputs.cache
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\Capa_Datos.AssemblyInfo.cs
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\Capa_Datos.dll
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\refint\Capa_Datos.dll
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\Capa_Datos.pdb
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Capa_Datos\obj\Debug\net5.0\ref\Capa_Datos.dll

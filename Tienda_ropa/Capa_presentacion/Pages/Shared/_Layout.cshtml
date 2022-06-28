@@ -6,24 +6,52 @@
     <title>@ViewData["Title"] - Capa_presentacion</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet"href="~/css/Categorias_estilos.css" />
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Capa_presentacion</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index">Inicio</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
+
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="Catalogos/Articulos">Articulos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="Catalogos/Categorias">Categorias </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="Catalogos/Colores">Colores</a>
                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link  text-dark" asp-area="" asp-page="Catalogos/Diseños">Diseños</a>
+                         </li>
+                          <li class="nav-item">
+                             <a class="nav-link  text-dark" asp-area="" asp-page="Catalogos/Estilos">Estilos</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link  text-dark" asp-area="" asp-page="Catalogos/Materiales">Materiales</a>
+                         </li>
+
+                         <li class="nav-item">
+                             <a class="nav-link  text-dark" asp-area="" asp-page="Catalogos/Prooveedor">Proveedoress</a>
+                         </li>
+
+                         <li class="nav-item">
+                             <a class="nav-link  text-dark" asp-area="" asp-page="Catalogos/Tallas">Tallas</a>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link  text-dark" asp-area="" asp-page="Catalogos/Usuarios">Usuarios</a>
+                         </li>
+
+
                     </ul>
                 </div>
             </div>
@@ -35,11 +63,7 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2022 - Capa_presentacion - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
+   
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

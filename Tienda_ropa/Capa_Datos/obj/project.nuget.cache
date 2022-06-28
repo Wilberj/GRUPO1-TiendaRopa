@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jqSqc8UuuFrOS2c3MD5AywxTHp+/0T6aGVDzVOfHmCQWH1Tpxgr4XKM0aVESC5+7Ua4Y1iGrz2t6v7avKNg/qg==",
+  "dgSpecHash": "9vUTt7tYhQoZUP4DuMmtSKZhJmPfCcGs6WeBupC5uADW+3JmZdnnW3xyS9jQdL6KV/MoW6lb+pSn/BKhnnYdcQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\GRUPO1-TiendaRopa\\Tienda_ropa\\Capa_Datos\\Capa_Datos.csproj",
+  "projectFilePath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\Capa_Datos\\Capa_Datos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kenne\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\kenne\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

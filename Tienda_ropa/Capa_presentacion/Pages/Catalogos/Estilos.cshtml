@@ -1,0 +1,111 @@
+﻿@page
+@model Capa_presentacion.Pages.Catalogos.EstilosModel
+@{
+}
+
+
+<head>
+  <meta charset="utf-8">
+  <title>Estilos</title>
+  <link rel="stylesheet" href="/css/Style_Estilos.css">
+
+  <script src="https://kit.fontawesome.com/433c5e385c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+ 
+
+  <form action="" target="_blank">
+
+    <fieldset>
+  
+      <legend>Estilos</legend>
+  
+      <p><label>ID-Estilos: <input type="text"></label></p>
+  
+      <p><label>Nombre: <input type="text" ></label></p>
+  
+  
+     
+  
+
+
+      <p>
+  
+        <label>
+  
+          Descripcion:
+  
+          <textarea name="descrip"></textarea>
+  
+        </label>
+  
+      </p>
+
+
+
+      <p>
+
+        <label for="">
+
+          Estado:
+
+          <select name="" id="">
+         <option value="val1">
+          Activo
+         </option>
+         <option value="val2">
+          Inactivo
+         </option>
+        </select>
+
+
+        </label>
+
+      </p>
+
+
+    </fieldset>
+
+
+
+    <div class="controles">
+      <button><i class="fa-solid fa-trash-can"></i></button>
+      <button><i class="fa-regular fa-floppy-disk"></i></button>
+      <button><i class="fa-solid fa-pencil"></i></button>
+      <button><i class="fa-solid fa-plus"></i></button>
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      <button><i class="fa-solid fa-circle-xmark"></i></button>
+    </div>
+  
+  
+    
+  
+  </form>
+    <br>
+    <br>
+    <br>
+
+
+  <div id="main-container">
+
+		<table>
+			<thead>
+				<tr>
+				<th></th> <th>Id-Estilos</th>	<th>Nombre</th> <th>Descripcion</th><th>Estado</th>
+				</tr>
+			</thead>
+      
+
+			<tr>
+				<td><input type="checkbox"></td><td></td><td></td> <td></td> <td><select> <option value="value0">Inactiva</option> <option value="value1">Activa</option> </select></td>
+			</tr>
+		
+			
+		</table>
+	</div>
+
+
+
+</body>

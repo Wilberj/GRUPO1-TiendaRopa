@@ -1,0 +1,114 @@
+﻿@page
+@model Capa_presentacion.Pages.Catalogos.UsuariosModel
+@{
+}
+
+
+<head>
+  <meta charset="utf-8">
+  <title>Prooveedor</title>
+  <link rel="stylesheet" href="/css/Style_Usuarios.css">
+
+  <script src="https://kit.fontawesome.com/433c5e385c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+ 
+
+  <form action="" target="_blank">
+
+    <fieldset>
+  
+      <legend>Prooveedor</legend>
+  
+      <p><label>ID-Usuario: <input type="text"></label></p>
+  
+      <p><label>Nombre: <input type="text" ></label></p>
+      <p><label>Telefono: <input type="text"></label></p>
+      <p><label>Correo: <input type="text"></label></p>
+      <p><label>Dirreccion: <input type="text"> </label></p>
+      <p><label>Id-Rol: <input type="text"></label></p>
+      
+     
+  
+
+
+      <p>
+  
+        <label>
+  
+          Descripcion:<br>
+  
+          <textarea name="descrip"></textarea>
+  
+        </label>
+  
+      </p>
+
+
+
+      <p>
+
+        <label for="">
+
+          Estado:
+
+          <select name="" id="">
+         <option value="val1">
+          Activo
+         </option>
+         <option value="val2">
+          Inactivo
+         </option>
+        </select>
+
+
+        </label>
+
+      </p>
+
+
+    </fieldset>
+
+
+
+    <div class="controles">
+      <button><i class="fa-solid fa-trash-can"></i></button>
+      <button><i class="fa-regular fa-floppy-disk"></i></button>
+      <button><i class="fa-solid fa-pencil"></i></button>
+      <button><i class="fa-solid fa-plus"></i></button>
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      <button><i class="fa-solid fa-circle-xmark"></i></button>
+    </div>
+  
+  
+    
+  
+  </form>
+    <br>
+    <br>
+    <br>
+
+
+  <div id="main-container">
+
+		<table>
+			<thead>
+				<tr>
+				<th></th> <th>Id_Prooveedor</th>	<th>Nombre</th> <th>Telefono</th> <th>Correo</th> <th>Descripcion</th><th>Estado</th>
+				</tr>
+			</thead>
+      
+
+			<tr>
+				<td><input type="checkbox"></td><td></td><td></td> <td> </td> <td></td> <td></td> <td><select> <option value="value0">Inactiva</option> <option value="value1">Activa</option> </select></td>
+			</tr>
+		
+			
+		</table>
+	</div>
+
+
+
+</body>
