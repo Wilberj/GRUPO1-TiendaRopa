@@ -1,0 +1,129 @@
+﻿@page
+@model TiendaRopa.Pages.Catalogos.Cat_ArticulosModel
+@{
+}
+
+<link rel="stylesheet" href="~/css/Categoriast.css" >
+<script src="https://kit.fontawesome.com/433c5e385c.js" crossorigin="anonymous"></script>
+
+<div class="Princ">
+<div class="container-fluid">
+    <div class="row mb-2">
+       
+        <div class="col-4">
+            <label for="code" class="form-label">Codigo</label>
+            <input type="text" class="form-control" id="txtcode" placeholder="Codigo">
+        </div>
+
+        <div class="col-2">
+            <label for="code" class="form-label">Codigo de Categoria</label>
+            <input type="text" class="form-control" id="txtcodecat" placeholder="Codigo Categoria">
+        </div>
+        <div class="col-6">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="txtname" placeholder="Nombre">
+        </div>
+        <div class="col-8">
+            <label for="ddstate" class="form-label">Estado</label>
+            <select class="form-control form-select form-select-sm" id="ddstate" aria-label="select">
+                <option value=1 selected>Activo</option>
+                <option value=0>Inactivo</option>
+            </select>
+        </div>
+
+        <div class="col-2">
+            <label for="code" class="form-label">Cod Promocion</label>
+            <input type="text" class="form-control" id="txtcodeprom" placeholder="Codigo Prom">
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="description" class="form-label">Descripcion</label>
+            <textarea class="form-control" id="txtdescription" rows="3"></textarea>
+        </div>
+    </div>
+    <div class="row my-2">
+        <div class="col d-flex justify-content-end">
+            <button  type="button" class="btn btn-primary" id="BtnSave" value="Guardar"> 
+<i class="fa-solid fa-file-circle-plus"></i>
+                </button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col">
+            <h4>Lista de Articulos</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <table id="TableData" class="table">
+                <thead>
+
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</div>
+
+<script type="module">
+    import CreateTable from "../js/TableComponent.js";
+    const LoadData = async () => {
+        let url = "../api/Articulos/GetArticulos";
+        let response = await fetch(url);
+        response = await response.json();
+        CreateTable(response, TableData, FunctionEdit);
+    }
+    const FunctionEdit = async (Item) => {
+        console.log(Item)
+        txtcode.value = Item.id_articulo;
+        txtcodecat.value=Item.id_categoria
+        txtname.value = Item.nombre;
+        txtdescription.value = Item.descripcion;
+        ddstate.value = Item.estado;
+        txtcodeprom.value=Item.id_promocion;
+
+       
+    }
+    window.onload = () => {
+        BtnSave.onclick = async () => {
+            const ObjIns = {
+
+                Id_articulo: (txtcode.value == "" ? -1 : txtcode.value),
+                Id_categoria: parseInt(txtcodecat.value),
+                Nombre: txtname.value,
+                Descripcion: txtdescription.value,
+                Estado: parseInt(ddstate.value),
+                Id_promocion:parseInt(txtcodeprom.value),
+            }
+            let url = "../api/Articulos/SaveArticulos";
+            let response = await fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-type': 'application/json; charset-utf-8',
+                    'Accept': '*/*'
+                },
+                body: JSON.stringify(ObjIns)
+            });
+            response = await response.json();
+            if (response == true) {
+                LoadData();
+                txtcode.value = "-1";
+                txtcodecat.value=""
+                txtname.value = "";
+                txtdescription.value = "";
+                ddstate.value = 1;
+                txtcodeprom.value="";
+
+
+
+            }
+        }
+        LoadData();
+    }
+</script>

@@ -1,0 +1,108 @@
+﻿@page
+@model TiendaRopa.Pages.Catalogos.BodegaModel
+@{
+}
+<script src="https://kit.fontawesome.com/433c5e385c.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="/css/Bodegas.css" >
+
+ <div class="Princ">
+<div class="container-fluid">
+    <div class="row mb-2">
+       
+        <div class="col-4">
+            <label for="code" class="form-label">Codigo</label>
+            <input type="text" class="form-control" id="txtcode" placeholder="Codigo">
+        </div>
+        <div class="col-6">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="txtname" placeholder="Nombre">
+        </div>
+        <div class="col-2">
+            <label for="ddstate" class="form-label">Estado</label>
+            <select class="form-control form-select form-select-sm" id="ddstate" aria-label="select">
+                <option value=1 selected>Activo</option>
+                <option value=0>Inactivo</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <label for="description" class="form-label">Descripcion</label>
+            <textarea class="form-control" id="txtdescription" rows="3"></textarea>
+        </div>
+    </div>
+    <div class="row my-2">
+        <div class="col d-flex justify-content-end">
+            <button  type="button" class="btn btn-primary" id="BtnSave" value="Guardar"> 
+<i class="fa-solid fa-file-circle-plus"></i>
+                </button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid mt-4">
+    <div class="row">
+        <div class="col">
+            <h4>Lista de Bodegas</h4>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <table id="TableData" class="table">
+                <thead>
+
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script type="module">
+    import CreateTable from "../js/TableComponent.js";
+    const LoadData = async () => {
+        let url = "../api/Bodegas/GetBodegas";
+        let response = await fetch(url);
+        response = await response.json();
+        CreateTable(response, TableData, FunctionEdit);
+    }
+    const FunctionEdit = async (Item) => {
+        console.log(Item)
+        txtcode.value = Item.id_bodega;
+        txtname.value = Item.nombre_bodega;
+        txtdescription.value = Item.descripcion;
+        ddstate.value = Item.estado;
+
+       
+    }
+    window.onload = () => {
+        BtnSave.onclick = async () => {
+            const ObjIns = {
+                id_bodega: (txtcode.value == "" ? -1 : txtcode.value),
+                nombre_bodega: txtname.value,
+                descripcion: txtdescription.value,
+                estado: parseInt(ddstate.value)
+            }
+            let url = "../api/Bodegas/SaveBodegas";
+            let response = await fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-type': 'application/json; charset-utf-8',
+                    'Accept': '*/*'
+                },
+                body: JSON.stringify(ObjIns)
+            });
+            response = await response.json();
+            if (response == true) {
+                LoadData();
+                txtcode.value = "-1";
+                txtname.value = "";
+                txtdescription.value = "";
+                ddstate.value = 1;
+            }
+        }
+        LoadData();
+    }
+</script>

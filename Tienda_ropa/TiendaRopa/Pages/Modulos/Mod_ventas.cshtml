@@ -1,0 +1,76 @@
+﻿@page
+@model TiendaRopa.Pages.Modulos.Mod_ventasModel
+@{
+}
+<script src="https://kit.fontawesome.com/433c5e385c.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="/css/Cat_ventas.css">
+
+
+<body>
+
+<form action="" target="_blank">
+
+    <fieldset class="f1">
+  
+      <legend>Factura</legend>
+      <p><label>Cliente:  <input  type="text" id="cliente" ></label></p>
+       <p><label>Id-Factura<input type="text" id="fact" ></label></p>
+      <p><label>Fecha     <input type="date" id="fact" ></label></p>
+      </fieldset>
+      <br >
+
+    <fieldset class="f1">
+      <legend>Articulos</legend>
+      <p><label>Articulo <input type="text" id="art"></label></p>
+      <p><label>Cantidad <input type="text" id="canti" ></label></p>
+      <p><label>Talla <input type="text" id="tall"></label></p>
+      <p><label>Color  <input type="text" id="col" ></label></p>
+      <p><label>Diseño <input type="text" id=" dis"></label></p>
+      <p><label>Marca <input type="text" id="marc"></label></p>
+      <p><label>Material <input type="text" id="mat"></label></p>
+      <p></p>
+      <p><label>Estilo <input type="text" id="style"></label></p>
+      <p></p>
+     
+      <button id="Btn_add">Agregar articulo</button>
+    </fieldset>
+      
+  
+  
+                <table id="TableData" class="table">
+                <thead>
+
+                </thead>
+                <tbody>
+                </tbody>
+                 </table>
+    
+
+
+
+   
+  
+  
+    
+  
+  </form>
+  
+
+
+  
+
+  <fieldset class="f2">
+  
+    <legend>Datos</legend>
+
+    <p><label>Iva: <input type="text" id="iva_final"></label></p>
+
+    <p><label>Descuento: <input type="text" id=""></label></p>
+    <p><label>Total: <input type="text" name="prom"></label></p>
+    <p></p>
+    <p><label class="frase_reg"> <button> Registrar Venta  </button> </label></p>
+    </fieldset>
+
+
+    </body>
