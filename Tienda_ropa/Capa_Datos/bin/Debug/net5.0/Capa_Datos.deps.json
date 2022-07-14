@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Capa_Datos/1.0.0": {
+      "CAPA_DATOS/1.0.0": {
         "dependencies": {
           "System.Data.SqlClient": "4.8.3"
         },
         "runtime": {
-          "Capa_Datos.dll": {}
+          "CAPA_DATOS.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
@@ -92,7 +92,7 @@
     }
   },
   "libraries": {
-    "Capa_Datos/1.0.0": {
+    "CAPA_DATOS/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

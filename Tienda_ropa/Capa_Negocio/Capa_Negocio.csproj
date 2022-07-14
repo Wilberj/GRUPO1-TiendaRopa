@@ -5,7 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Capa_Datos\Capa_Datos.csproj" />
+    <None Remove="Diseños.cs~RFcef47.TMP" />
+    <None Remove="Marcas.cs~RF1824948.TMP" />
+    <None Remove="Proveedores.cs~RF171ae3e.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CAPA_DATOS\CAPA_DATOS.csproj" />
   </ItemGroup>
 
 </Project>

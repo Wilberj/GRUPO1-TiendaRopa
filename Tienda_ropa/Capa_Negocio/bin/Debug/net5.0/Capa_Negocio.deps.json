@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Capa_Negocio/1.0.0": {
+      "CAPA_NEGOCIO/1.0.0": {
         "dependencies": {
-          "Capa_Datos": "1.0.0"
+          "CAPA_DATOS": "1.0.0"
         },
         "runtime": {
-          "Capa_Negocio.dll": {}
+          "CAPA_NEGOCIO.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
@@ -89,18 +89,18 @@
         }
       },
       "System.Security.Principal.Windows/4.7.0": {},
-      "Capa_Datos/1.0.0": {
+      "CAPA_DATOS/1.0.0": {
         "dependencies": {
           "System.Data.SqlClient": "4.8.3"
         },
         "runtime": {
-          "Capa_Datos.dll": {}
+          "CAPA_DATOS.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Capa_Negocio/1.0.0": {
+    "CAPA_NEGOCIO/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -168,7 +168,7 @@
       "path": "system.security.principal.windows/4.7.0",
       "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
     },
-    "Capa_Datos/1.0.0": {
+    "CAPA_DATOS/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

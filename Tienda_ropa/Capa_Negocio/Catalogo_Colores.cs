@@ -28,7 +28,7 @@ namespace Capa_Negocio
 
                 if (inst.id_color == -1)
                 {
-                    return SqlADOConexion.SQLM.InsertObject(TableName, inst);
+                    return SqlADOConexion.SQLM.InserObject(TableName, inst);
 
                 }
                 else

@@ -5,33 +5,33 @@ using System.Text;
 using System.Threading.Tasks;
 using CAPA_DATOS;
 
-namespace Capa_Negocio
+namespace CAPA_NEGOCIO
 {
    
-    internal class Diseños
+   public class Diseños
     {
-        public string TableName = "Diseño";
-    int id_diseño { get; set; }
-    string diseño { get; set; }
-    string descripcion { get; set; }
-    bool estado { get; set; }
+    public string TableName = "Diseño";
+    public int Id_diseño { get; set; }
+    public string Diseño { get; set; }
+    public string Descripcion { get; set; }
+    public int Estado { get; set; }
 
 
-        public object save(Diseños inst)
+        public Object Save(Diseños inst)
         {
             try
             {
                 SqlADOConexion.IniciarConexion("sa", "1234");
 
 
-                if (inst.id_diseño == -1)
+                if (inst.Id_diseño == -1)
                 {
-                    return SqlADOConexion.SQLM.InsertObject(TableName, inst);
+                    return SqlADOConexion.SQLM.InserObject(TableName, inst);
 
                 }
                 else
                 {
-                    return SqlADOConexion.SQLM.UpdateObject(TableName, inst, "id_diseño");
+                    return SqlADOConexion.SQLM.UpdateObject(TableName, inst, "Id_diseño");
                 }
 
             }
@@ -41,7 +41,83 @@ namespace Capa_Negocio
             }
         }
 
+        public Object Delete(Diseños inst)
+        {
+            try
+            {
+
+                SqlADOConexion.IniciarConexion("sa", "1234");
+                if (inst.Id_diseño < 0)
+                {
+
+                    throw new Exception("Favor identifique del Id_diseño ");
+
+                }
+                else
+                {
+
+                    return SqlADOConexion.SQLM.DeleteObject(TableName, "Id_diseño" , inst);
+
+                }
 
 
-    }
+
+
+            }
+
+            catch (Exception e)
+            {
+                throw;
+            }
+        }
+
+
+        public Object Get(Diseños inst)
+        {
+            try
+            {
+                SqlADOConexion.IniciarConexion("sa", "1234");
+                return SqlADOConexion.SQLM.TakeList(TableName, inst, null);
+
+
+            }
+            catch (Exception e)
+            {
+                throw;
+            }
+        }
+
+
+        public void buscar_diseños(int id_diseño)
+        {
+
+
+
+        }
+
+        public void cambiar_estado(int id_diseño)
+        {
+
+
+
+        }
+
+        public void mostrar_deseños() 
+        {
+        
+        }
+
+        public void actualizar_diseño(int id_diseño)
+        {
+
+        }
+
+        public void cambiar_descripcion(int id_diseño)
+        {
+
+        }
+
+
+
+}
 }

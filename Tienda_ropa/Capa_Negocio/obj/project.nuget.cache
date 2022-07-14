@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U3BVmFmp0MzTkS4bQLm+XUZz8RfaUdgExAHm3Sb438ZJxj0yiDWSTM2B9kUK9MmPkbA8EUhvWPajmP+SYfXPHw==",
+  "dgSpecHash": "K4OyqCtvB3Gbf8Sbdmw4vH4dgow3cJsDooP9jZRbQPcbXboKPe3nTbZEphZPu1DHr/DBuJ/HA/OaAzVxdCTcAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\Tienda_ropa\\Capa_Negocio\\Capa_Negocio.csproj",
+  "projectFilePath": "C:\\Users\\kenne\\Downloads\\Tienda_ropa\\CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kenne\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\kenne\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

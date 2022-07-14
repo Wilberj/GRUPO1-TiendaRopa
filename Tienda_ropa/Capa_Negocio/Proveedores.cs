@@ -5,37 +5,82 @@ using System.Text;
 using System.Threading.Tasks;
 using CAPA_DATOS;
 
-namespace Capa_Negocio
+namespace CAPA_NEGOCIO
 {
-    internal class Proveedores
+    public class Proveedores
     {
 
-    public string TableName = "Tproveedores";
-    int id_proveedor { get; set; }
-    string proveedor { get; set; }
-    string Descripcion { get; set; }
-    string correo { get; set; }
-    string dirreccion { get; set; }
-    int telefono { get; set; }
-    bool estado { get; set; }
+    private string TableName = "Proveedores";
+    public int Id_proveedor { get; set; }
+    public string Nombre { get; set; }
+    public string Dirreccion { get; set; }
+    public int Telefono { get; set; }
+    public string Correo { get; set; }
+    public string Descripcion { get; set; }
+    public int Estado { get; set; }
 
 
-        public object save(Proveedores inst)
+        public Object Save(Proveedores Inst)
         {
             try
             {
                 SqlADOConexion.IniciarConexion("sa", "1234");
 
 
-                if (inst.id_proveedor == -1)
+                if (Inst.Id_proveedor == -1)
                 {
-                    return SqlADOConexion.SQLM.InsertObject(TableName, inst);
+                    return SqlADOConexion.SQLM.InserObject(TableName, Inst);
 
                 }
                 else
                 {
-                    return SqlADOConexion.SQLM.UpdateObject(TableName, inst, "id-proveedor");
+                    return SqlADOConexion.SQLM.UpdateObject(TableName, Inst, "Id_proveedor");
                 }
+
+            }
+            catch (Exception e)
+            {
+                throw;
+            }
+        }
+        public Object Delete(Proveedores Inst)
+        {
+            try
+            {
+
+                SqlADOConexion.IniciarConexion("sa", "1234");
+                if (Inst.Id_proveedor < 0)
+                {
+
+                    throw new Exception("Favor identifique del Id_proveedor");
+
+                }
+                else
+                {
+
+                    return SqlADOConexion.SQLM.DeleteObject(TableName, "Id_proveedor", Inst);
+
+                }
+
+
+
+
+            }
+
+            catch (Exception e)
+            {
+                throw;
+            }
+        }
+
+
+        public Object Get(Proveedores Inst)
+        {
+            try
+            {
+                SqlADOConexion.IniciarConexion("sa", "1234");
+                return SqlADOConexion.SQLM.TakeList(TableName, Inst, null);
+
 
             }
             catch (Exception e)
@@ -46,6 +91,8 @@ namespace Capa_Negocio
 
 
 
+        
+        
 
 
     }

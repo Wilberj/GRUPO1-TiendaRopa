@@ -8,19 +8,21 @@ namespace CAPA_DATOS
     {
         static string UserSQLConexion = "";
         public static SqlServerGDatos SQLM;
+
         static public bool IniciarConexion(string user, string password)
         {
             try
             {
-                UserSQLConexion = "Data Source=DESKTOP-2GLH51Q\\SQLEXPRESS; Initial Catalog=BDGestionAcademica; User ID="
-                    + user + ";Password=" + password;
+                UserSQLConexion = "Data Source=.; Initial Catalog=Tienda_ropa;Integrated Security=True;";
                 SQLM = new SqlServerGDatos(UserSQLConexion);
                 return true;
             }
             catch (Exception)
             {
+
                 throw;
             }
         }
+
     }
 }
