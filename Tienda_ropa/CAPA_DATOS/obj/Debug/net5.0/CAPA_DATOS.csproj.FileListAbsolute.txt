@@ -58,3 +58,15 @@ C:\Users\kenne\OneDrive\Escritorio\Tirnda\CAPA_DATOS\obj\Debug\net5.0\CAPA_DATOS
 C:\Users\kenne\OneDrive\Escritorio\Tirnda\CAPA_DATOS\obj\Debug\net5.0\refint\CAPA_DATOS.dll
 C:\Users\kenne\OneDrive\Escritorio\Tirnda\CAPA_DATOS\obj\Debug\net5.0\CAPA_DATOS.pdb
 C:\Users\kenne\OneDrive\Escritorio\Tirnda\CAPA_DATOS\obj\Debug\net5.0\ref\CAPA_DATOS.dll
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\CAPA_DATOS\bin\Debug\net5.0\CAPA_DATOS.deps.json
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\CAPA_DATOS\bin\Debug\net5.0\CAPA_DATOS.dll
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\CAPA_DATOS\bin\Debug\net5.0\CAPA_DATOS.pdb
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\CAPA_DATOS\obj\Debug\net5.0\CAPA_DATOS.csproj.AssemblyReference.cache
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\CAPA_DATOS\obj\Debug\net5.0\CAPA_DATOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\CAPA_DATOS\obj\Debug\net5.0\CAPA_DATOS.AssemblyInfoInputs.cache
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\CAPA_DATOS\obj\Debug\net5.0\CAPA_DATOS.AssemblyInfo.cs
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\CAPA_DATOS\obj\Debug\net5.0\CAPA_DATOS.csproj.CoreCompileInputs.cache
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\CAPA_DATOS\obj\Debug\net5.0\CAPA_DATOS.dll
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\CAPA_DATOS\obj\Debug\net5.0\refint\CAPA_DATOS.dll
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\CAPA_DATOS\obj\Debug\net5.0\CAPA_DATOS.pdb
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\CAPA_DATOS\obj\Debug\net5.0\ref\CAPA_DATOS.dll
