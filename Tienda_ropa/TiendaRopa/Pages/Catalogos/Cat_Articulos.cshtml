@@ -18,7 +18,13 @@
         <div class="col-2">
             <label for="code" class="form-label">Codigo de Categoria</label>
             <select  class="form-control" id="txtcodecat" > 
+<<<<<<< HEAD
                 
+=======
+                <option>
+
+                </option>
+>>>>>>> 220997dce6a1224b13925b08493d9814ba91fcc5
 
                 </select>
         </div>
@@ -36,11 +42,15 @@
 
         <div class="col-2">
             <label for="code" class="form-label">Cod Promocion</label>
+<<<<<<< HEAD
      
             <select  class="form-control" id="txtcodeprom" > 
                 
 
                 </select>
+=======
+            <input type="text" class="form-control" id="txtcodeprom" placeholder="Codigo Prom">
+>>>>>>> 220997dce6a1224b13925b08493d9814ba91fcc5
         </div>
 
     </div>
@@ -80,14 +90,21 @@
 
 <script type="module">
     import CreateTable from "../js/TableComponent.js";
+<<<<<<< HEAD
     import CreateDropDown from "../js/DropDownComponent.js";
+=======
+>>>>>>> 220997dce6a1224b13925b08493d9814ba91fcc5
     const LoadData = async () => {
         let url = "../api/Articulos/GetArticulos";
         let response = await fetch(url);
         response = await response.json();
+<<<<<<< HEAD
         CreateTable(response[0], TableData, FunctionEdit);
           CreateDropDown(response[1], txtcodecat, "categoria", "id_categoria");
              CreateDropDown(response[2], txtcodeprom, "promocion", "id_promocion");
+=======
+        CreateTable(response, TableData, FunctionEdit);
+>>>>>>> 220997dce6a1224b13925b08493d9814ba91fcc5
     }
     const FunctionEdit = async (Item) => {
         console.log(Item)
@@ -104,12 +121,21 @@
         BtnSave.onclick = async () => {
             const ObjIns = {
 
+<<<<<<< HEAD
                 id_articulo: (txtcode.value == "" ? -1 : txtcode.value),
                 id_categoria: parseInt(txtcodecat.value),
                 nombre: txtname.value,
                 descripcion: txtdescription.value,
                 estado: parseInt(ddstate.value),
                 id_promocion:parseInt(txtcodeprom.value),
+=======
+                Id_articulo: (txtcode.value == "" ? -1 : txtcode.value),
+                Id_categoria: parseInt(txtcodecat.value),
+                Nombre: txtname.value,
+                Descripcion: txtdescription.value,
+                Estado: parseInt(ddstate.value),
+                Id_promocion:parseInt(txtcodeprom.value),
+>>>>>>> 220997dce6a1224b13925b08493d9814ba91fcc5
             }
             let url = "../api/Articulos/SaveArticulos";
             let response = await fetch(url, {

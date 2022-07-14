@@ -731,6 +731,7 @@ C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\Tie
 C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\TiendaRopa\obj\Debug\net5.0\TiendaRopa.pdb
 C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\TiendaRopa\obj\Debug\net5.0\TiendaRopa.genruntimeconfig.cache
 C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\TiendaRopa\obj\Debug\net5.0\ref\TiendaRopa.dll
+<<<<<<< HEAD
 C:\Users\Omar Salomé\Documents\sql\H2O\BD procedimeineto de almacenado\Tienda_ropa\TiendaRopa\obj\Debug\net5.0\TiendaRopa.csproj.AssemblyReference.cache
 C:\Users\Omar Salomé\Documents\sql\H2O\BD procedimeineto de almacenado\Tienda_ropa\TiendaRopa\obj\Debug\net5.0\TiendaRopa.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Omar Salomé\Documents\sql\H2O\BD procedimeineto de almacenado\Tienda_ropa\TiendaRopa\obj\Debug\net5.0\TiendaRopa.AssemblyInfoInputs.cache
@@ -950,3 +951,5 @@ C:\Users\kenne\Downloads\Tienda_ropa\TiendaRopa\obj\Debug\net5.0\TiendaRopa.pdb
 C:\Users\kenne\Downloads\Tienda_ropa\TiendaRopa\obj\Debug\net5.0\TiendaRopa.genruntimeconfig.cache
 C:\Users\kenne\Downloads\Tienda_ropa\TiendaRopa\obj\Debug\net5.0\ref\TiendaRopa.dll
 C:\Users\kenne\Downloads\Tienda_ropa\TiendaRopa\obj\Debug\net5.0\Razor\Pages\Modulos\Login.cshtml.g.cs
+=======
+>>>>>>> 220997dce6a1224b13925b08493d9814ba91fcc5

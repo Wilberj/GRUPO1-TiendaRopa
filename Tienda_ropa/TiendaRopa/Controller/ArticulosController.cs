@@ -26,6 +26,7 @@ namespace TiendaRopa.Controller
         [HttpGet]
         public object GetArticulos()
         {
+<<<<<<< HEAD
             List<Object> Response = new List<object>();
 
             Articulos CC = new Articulos();
@@ -36,6 +37,10 @@ namespace TiendaRopa.Controller
             Response.Add(PP.Get(PP));
            
             return Response;
+=======
+            Articulos Ins = new Articulos();
+            return Ins.Get(Ins);
+>>>>>>> 220997dce6a1224b13925b08493d9814ba91fcc5
         }
         #endregion
 

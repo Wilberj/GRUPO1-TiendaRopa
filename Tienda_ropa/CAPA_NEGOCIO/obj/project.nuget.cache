@@ -1,0 +1,24 @@
+{
+  "version": 2,
+<<<<<<< HEAD:Tienda_ropa/Capa_Negocio/obj/project.nuget.cache
+  "dgSpecHash": "K4OyqCtvB3Gbf8Sbdmw4vH4dgow3cJsDooP9jZRbQPcbXboKPe3nTbZEphZPu1DHr/DBuJ/HA/OaAzVxdCTcAg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kenne\\Downloads\\Tienda_ropa\\CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj",
+=======
+  "dgSpecHash": "wRZl76xKHFl/7lk/S1FYw5aQrHHyeCGVaGzld0R6/XUOH4UvCw1vuxUjt8q20asOpeaRK4jVFI+Uj1G0Zo5rKg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj",
+>>>>>>> 220997dce6a1224b13925b08493d9814ba91fcc5:Tienda_ropa/CAPA_NEGOCIO/obj/project.nuget.cache
+  "expectedPackageFiles": [
+    "C:\\Users\\kenne\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\kenne\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\kenne\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\kenne\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\kenne\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\kenne\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\kenne\\.nuget\\packages\\system.data.sqlclient\\4.8.3\\system.data.sqlclient.4.8.3.nupkg.sha512",
+    "C:\\Users\\kenne\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\kenne\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

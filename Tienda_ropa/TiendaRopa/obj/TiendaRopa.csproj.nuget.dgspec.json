@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\kenne\\Downloads\\Tienda_ropa\\TiendaRopa\\TiendaRopa.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\kenne\\Downloads\\Tienda_ropa\\CAPA_DATOS\\CAPA_DATOS.csproj",
         "packagesPath": "C:\\Users\\kenne\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\kenne\\Downloads\\Tienda_ropa\\CAPA_DATOS\\obj\\",
+=======
+    "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\TiendaRopa\\TiendaRopa.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\CAPA_DATOS\\CAPA_DATOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\CAPA_DATOS\\CAPA_DATOS.csproj",
+        "projectName": "CAPA_DATOS",
+        "projectPath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\CAPA_DATOS\\CAPA_DATOS.csproj",
+        "packagesPath": "C:\\Users\\kenne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\CAPA_DATOS\\obj\\",
+>>>>>>> 220997dce6a1224b13925b08493d9814ba91fcc5
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kenne\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,6 +74,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
@@ -72,6 +87,20 @@
         "projectPath": "C:\\Users\\kenne\\Downloads\\Tienda_ropa\\CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj",
         "packagesPath": "C:\\Users\\kenne\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\kenne\\Downloads\\Tienda_ropa\\CAPA_NEGOCIO\\obj\\",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj",
+        "projectName": "CAPA_NEGOCIO",
+        "projectPath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj",
+        "packagesPath": "C:\\Users\\kenne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\CAPA_NEGOCIO\\obj\\",
+>>>>>>> 220997dce6a1224b13925b08493d9814ba91fcc5
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kenne\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +117,13 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\kenne\\Downloads\\Tienda_ropa\\CAPA_DATOS\\CAPA_DATOS.csproj": {
                 "projectPath": "C:\\Users\\kenne\\Downloads\\Tienda_ropa\\CAPA_DATOS\\CAPA_DATOS.csproj"
+=======
+              "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\CAPA_DATOS\\CAPA_DATOS.csproj": {
+                "projectPath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\CAPA_DATOS\\CAPA_DATOS.csproj"
+>>>>>>> 220997dce6a1224b13925b08493d9814ba91fcc5
               }
             }
           }
@@ -122,6 +156,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "C:\\Users\\kenne\\Downloads\\Tienda_ropa\\TiendaRopa\\TiendaRopa.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -130,6 +165,16 @@
         "projectPath": "C:\\Users\\kenne\\Downloads\\Tienda_ropa\\TiendaRopa\\TiendaRopa.csproj",
         "packagesPath": "C:\\Users\\kenne\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\kenne\\Downloads\\Tienda_ropa\\TiendaRopa\\obj\\",
+=======
+    "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\TiendaRopa\\TiendaRopa.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\TiendaRopa\\TiendaRopa.csproj",
+        "projectName": "TiendaRopa",
+        "projectPath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\TiendaRopa\\TiendaRopa.csproj",
+        "packagesPath": "C:\\Users\\kenne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\TiendaRopa\\obj\\",
+>>>>>>> 220997dce6a1224b13925b08493d9814ba91fcc5
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kenne\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -146,8 +191,13 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+<<<<<<< HEAD
               "C:\\Users\\kenne\\Downloads\\Tienda_ropa\\CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj": {
                 "projectPath": "C:\\Users\\kenne\\Downloads\\Tienda_ropa\\CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj"
+=======
+              "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj": {
+                "projectPath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\CAPA_NEGOCIO\\CAPA_NEGOCIO.csproj"
+>>>>>>> 220997dce6a1224b13925b08493d9814ba91fcc5
               }
             }
           }

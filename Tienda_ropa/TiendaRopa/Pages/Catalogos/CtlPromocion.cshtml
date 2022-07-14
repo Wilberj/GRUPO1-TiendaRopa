@@ -97,6 +97,7 @@
     window.onload = () => {
         BtnSave.onclick = async () => {
             const ObjIns = {
+<<<<<<< HEAD
                 id_promocion: (txtcode.value == "" ? -1 : txtcode.value),
                 promocion: txtname.value,
                 fecha_inicio:    txtfini.value,
@@ -104,6 +105,15 @@
                 descuento: parseInt(textdescuento.value),
                 descripcion: txtdes.value,
                 estado: parseInt(ddstate.value),
+=======
+                Id_promocion: (txtcode.value == "" ? -1 : txtcode.value),
+                Promocion: txtname.value,
+                Fecha_inicio:  txtfini.value,
+                Fecha_final: txtff.value,
+                Descuento: parseInt(textdescuento.value),
+                Descripcion: txtdes.value,
+                Estado: parseInt(ddstate.value),
+>>>>>>> 220997dce6a1224b13925b08493d9814ba91fcc5
             }
             let url = "../api/Promocion/SavePromociones";
             let response = await fetch(url, {

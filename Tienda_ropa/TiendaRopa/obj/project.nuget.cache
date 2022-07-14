@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "wimz/L1xilPd4WWO0cm/W2V0poecW3HgXsRseAlE6GroZhYKBrIRif/MAMxpD6zLeQq+Az53rBsGp7+pyY4xNw==",
   "success": true,
   "projectFilePath": "C:\\Users\\kenne\\Downloads\\Tienda_ropa\\TiendaRopa\\TiendaRopa.csproj",
+=======
+  "dgSpecHash": "Sz7rl4wdc+XCZoSI0cDWjIwAF6qvjsX57zgwSuufIiu7N3Wm2CH1i9+btshR4/gFkgzPU6S/UTUJr6LgaW52rw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kenne\\OneDrive\\Escritorio\\trabajos c#\\GRUPO1-TiendaRopa\\Tienda_ropa\\TiendaRopa\\TiendaRopa.csproj",
+>>>>>>> 220997dce6a1224b13925b08493d9814ba91fcc5
   "expectedPackageFiles": [
     "C:\\Users\\kenne\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\kenne\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.15\\microsoft.aspnetcore.cryptography.internal.5.0.15.nupkg.sha512",

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Diseños.cs~RFcef47.TMP" />
+    <None Remove="Marcas.cs~RF1824948.TMP" />
+    <None Remove="Proveedores.cs~RF171ae3e.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CAPA_DATOS\CAPA_DATOS.csproj" />
+  </ItemGroup>
+
+</Project>
