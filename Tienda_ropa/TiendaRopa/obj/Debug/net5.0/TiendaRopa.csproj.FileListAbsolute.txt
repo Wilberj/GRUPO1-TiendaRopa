@@ -1060,3 +1060,4 @@ C:\Users\kenne\OneDrive\Escritorio\Keren\Tienda_ropa\TiendaRopa\obj\Debug\net5.0
 C:\Users\kenne\OneDrive\Escritorio\Keren\Tienda_ropa\TiendaRopa\obj\Debug\net5.0\TiendaRopa.pdb
 C:\Users\kenne\OneDrive\Escritorio\Keren\Tienda_ropa\TiendaRopa\obj\Debug\net5.0\TiendaRopa.genruntimeconfig.cache
 C:\Users\kenne\OneDrive\Escritorio\Keren\Tienda_ropa\TiendaRopa\obj\Debug\net5.0\ref\TiendaRopa.dll
+C:\Users\kenne\OneDrive\Escritorio\trabajos c#\GRUPO1-TiendaRopa\Tienda_ropa\TiendaRopa\obj\Debug\net5.0\Razor\Pages\Modulos\Login.cshtml.g.cs
